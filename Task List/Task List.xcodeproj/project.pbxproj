@@ -13,6 +13,7 @@
 		BF7F0220198716ED00D5EE52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF7F021E198716ED00D5EE52 /* Main.storyboard */; };
 		BF7F0222198716ED00D5EE52 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF7F0221198716ED00D5EE52 /* Images.xcassets */; };
 		BF7F022E198716ED00D5EE52 /* Task_ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7F022D198716ED00D5EE52 /* Task_ListTests.swift */; };
+		BF7F02381987173600D5EE52 /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7F02371987173600D5EE52 /* TaskManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		BF7F0227198716ED00D5EE52 /* Task ListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Task ListTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF7F022C198716ED00D5EE52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF7F022D198716ED00D5EE52 /* Task_ListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task_ListTests.swift; sourceTree = "<group>"; };
+		BF7F02371987173600D5EE52 /* TaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				BF7F0218198716ED00D5EE52 /* AppDelegate.swift */,
 				BF7F021A198716ED00D5EE52 /* FirstViewController.swift */,
 				BF7F021C198716ED00D5EE52 /* SecondViewController.swift */,
+				BF7F02371987173600D5EE52 /* TaskManager.swift */,
 				BF7F021E198716ED00D5EE52 /* Main.storyboard */,
 				BF7F0221198716ED00D5EE52 /* Images.xcassets */,
 				BF7F0216198716ED00D5EE52 /* Supporting Files */,
@@ -213,6 +216,7 @@
 			files = (
 				BF7F021D198716ED00D5EE52 /* SecondViewController.swift in Sources */,
 				BF7F0219198716ED00D5EE52 /* AppDelegate.swift in Sources */,
+				BF7F02381987173600D5EE52 /* TaskManager.swift in Sources */,
 				BF7F021B198716ED00D5EE52 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
